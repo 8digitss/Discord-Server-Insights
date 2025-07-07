@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Discord Server Dashboard</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, <%= user.username %>!</h1>
+    <p>Here's a quick overview of the servers where I hang out with you:</p>
+    <% if (guilds.length === 0) { %>
+      <p><em>Hmm... Looks like I'm not in any servers with you yet.</em></p>
+    <% } else { %>
+      <ul>
+        <% guilds.forEach(guild => { %>
+          <li><strong><%= guild.name %></strong> — <%= guild.memberCount %> members</li>
+        <% }) %>
+      </ul>
+    <% } %>
+    <p>Want to refresh? Just <a href="/dashboard">click here</a>.</p>
+  </div>
+</body>
+</html>
