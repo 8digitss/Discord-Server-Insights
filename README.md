@@ -28,8 +28,6 @@ Create a second folder within "discord-server-insights" and name it "views"
 
 Place dashboard.ejs in the folder "views"
 
-Now you're setup
-
 1. Create a `.env` file:
 ```
 CLIENT_ID=YOUR_CLIENT_ID
