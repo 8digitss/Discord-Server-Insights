@@ -1,0 +1,17 @@
+{
+  "name": "discord-server-insights",
+  "version": "1.0.0",
+  "description": "A Discord Server Insights Dashboard with OAuth2 and Discord.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.3.2"
+  }
+}
