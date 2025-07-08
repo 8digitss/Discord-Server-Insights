@@ -14,19 +14,7 @@ A simple web dashboard that displays Discord server stats using OAuth2 and Disco
 - EJS (for views)
 - CSS (for basic styling)
 
-## Setup:
-
-## **Pre setup**
-
-Create a folder and name it "discord-server-insights"
-
-Create a folder within that folder and name it "public"
-
-Place style.css in the folder "public"
-
-Create a second folder within "discord-server-insights" and name it "views"
-
-Place dashboard.ejs in the folder "views"
+## Setup
 
 1. Create a `.env` file:
 ```
